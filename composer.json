@@ -1,0 +1,21 @@
+{
+    "name": "sonny-blaine/integrator-bridge",
+    "description": "Bridge to integrate",
+    "type": "project",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SonnyBlaine\\IntegratorBridge\\": "src/"
+        }
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Ráfaga Queiroz",
+            "email": "rafaga.queiroz@moveissimonetti.com.br"
+        }
+    ],
+    "minimum-stability": "stable"
+}
