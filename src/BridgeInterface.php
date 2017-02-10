@@ -8,6 +8,7 @@ namespace SonnyBlaine\IntegratorBridge;
 interface BridgeInterface
 {
     /**
+     * Integrates a determined requisition
      * @param RequestInterface $request
      * @return mixed
      */
