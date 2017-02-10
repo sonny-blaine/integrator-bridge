@@ -11,4 +11,9 @@ interface RequestInterface
      * @return \stdClass
      */
     public function getData(): \stdClass;
+
+    /**
+     * @return string
+     */
+    public function getMethodIdentifier(): string;
 }
