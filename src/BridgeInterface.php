@@ -13,4 +13,11 @@ interface BridgeInterface
      * @return mixed
      */
     public function integrate(RequestInterface $request);
+
+    /**
+     * Retrieves data
+     * @param RequestInterface $request
+     * @return mixed
+     */
+    public function search(RequestInterface $request);
 }
