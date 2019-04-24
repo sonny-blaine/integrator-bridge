@@ -8,16 +8,16 @@ namespace SonnyBlaine\IntegratorBridge;
 interface BridgeInterface
 {
     /**
-     * Integrates a determined requisition
-     * @param RequestInterface $request
+     * Integrates a determined request
+     * @param IntegrateRequestInterface $request
      * @return mixed
      */
-    public function integrate(RequestInterface $request);
+    public function integrate(IntegrateRequestInterface $request);
 
     /**
      * Retrieves data
-     * @param RequestInterface $request
+     * @param SearchRequestInterface $request
      * @return mixed
      */
-    public function search(RequestInterface $request);
+    public function search(SearchRequestInterface $request);
 }
